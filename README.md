@@ -111,6 +111,20 @@ type moduledata struct {
                                        funcoff
 
 
+# 使用
+只需要有gcc即可
+```sh
+> make
+> ./elfChecker -h
+Usage: ./elfChecker [OPTIONS]
+Options:
+	-f, --file FILENAME	Specify the input file
+	-v, --verbose      	Enable verbose output
+	-n, --funcname     	Specify the searched funcname
+	-h, --help         	Display this help message
+```
+
+
 
 
 
